@@ -6,10 +6,11 @@ const RESOURCES = {
   "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "assets/FontManifest.json": "8929b7dda1a89b6ecda2ca3b80ad42b6",
-"assets/AssetManifest.json": "6d4a333f64a2d9e3b4dccf9d7564e508",
+"assets/AssetManifest.json": "815d71f8bfacaa160bea452f1e4c8a0c",
 "assets/NOTICES": "e7bd0d1ea68cf0ebff3fe7f45b39af66",
 "assets/assets/PTMono-Regular.ttf": "0c6b8e07701bde6d661902803104aab1",
 "assets/assets/Manrope-Bold.ttf": "656753569aef606dd528cc6bdf672cdc",
+"assets/assets/person_image.jpg": "c129f534dd504103067af9ba32f55f15",
 "assets/assets/logo_dark.png": "fec053695afe87040432aab2ce196577",
 "assets/assets/Manrope-Medium.ttf": "6196e0dab83345b15290ee22620358c1",
 "assets/assets/MajorMonoDisplay-Regular.ttf": "c04d1551740d27ebcf504e8c7e12ed75",
@@ -20,7 +21,7 @@ const RESOURCES = {
 "index.html": "c0cdfee83a941a47dde3184d6da74a8d",
 "/": "c0cdfee83a941a47dde3184d6da74a8d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "40be25b9e3d81d8e3decc80282267d30"
+"main.dart.js": "7a78a5084405d10e84ea745fe583617a"
 };
 
 // The application shell files that are downloaded before a service worker can
