@@ -6,21 +6,24 @@ const RESOURCES = {
   "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "assets/FontManifest.json": "eb8d89407f991bce55928f512df2c3e1",
-"assets/AssetManifest.json": "1b18987e616fadc3cdcb89dd6eb2e5c7",
+"assets/AssetManifest.json": "97aa98e1273ee35e941bd01c6b83c2af",
 "assets/NOTICES": "c7cdb4c78a0e8cdc6cb97260cd9e479e",
 "assets/assets/PTMono-Regular.ttf": "0c6b8e07701bde6d661902803104aab1",
 "assets/assets/Manrope-Bold.ttf": "656753569aef606dd528cc6bdf672cdc",
 "assets/assets/person_image.jpg": "c129f534dd504103067af9ba32f55f15",
 "assets/assets/logo_dark.png": "fec053695afe87040432aab2ce196577",
+"assets/assets/blueflags.png": "3a25e92120f0c323f405a8f7c73543ce",
 "assets/assets/Manrope-Medium.ttf": "6196e0dab83345b15290ee22620358c1",
 "assets/assets/MajorMonoDisplay-Regular.ttf": "c04d1551740d27ebcf504e8c7e12ed75",
+"assets/assets/dalmiacement.png": "d3b01d90288b61be3b259f983b7f372e",
 "assets/assets/logo_light.png": "803ba35adef2c2a6c03867f0a2628b24",
+"assets/assets/doctorsvoice.png": "f1f2d87cf2f793367a0c817c6c722183",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "manifest.json": "fd6494b37022485e5afc7fd40db2392b",
 "index.html": "c0cdfee83a941a47dde3184d6da74a8d",
 "/": "c0cdfee83a941a47dde3184d6da74a8d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "47d6d7533072f505c61320571335405d"
+"main.dart.js": "c5408a2bada743bc5814dd6af3e900a8"
 };
 
 // The application shell files that are downloaded before a service worker can
