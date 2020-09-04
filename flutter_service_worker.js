@@ -7,16 +7,19 @@ const RESOURCES = {
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "logo_dark.png": "fec053695afe87040432aab2ce196577",
 "assets/FontManifest.json": "eb8d89407f991bce55928f512df2c3e1",
-"assets/AssetManifest.json": "97aa98e1273ee35e941bd01c6b83c2af",
+"assets/AssetManifest.json": "25c8539e63b70fa31e97124216cf084b",
 "assets/NOTICES": "c7cdb4c78a0e8cdc6cb97260cd9e479e",
 "assets/assets/PTMono-Regular.ttf": "0c6b8e07701bde6d661902803104aab1",
 "assets/assets/Manrope-Bold.ttf": "656753569aef606dd528cc6bdf672cdc",
+"assets/assets/github.png": "d43185c7fb244b334db5fe846e81a770",
 "assets/assets/person_image.jpg": "c129f534dd504103067af9ba32f55f15",
 "assets/assets/logo_dark.png": "fec053695afe87040432aab2ce196577",
+"assets/assets/twitter.png": "28a63dbeebbcd976f2a7af19b791f84d",
 "assets/assets/blueflags.png": "3a25e92120f0c323f405a8f7c73543ce",
 "assets/assets/Manrope-Medium.ttf": "6196e0dab83345b15290ee22620358c1",
 "assets/assets/MajorMonoDisplay-Regular.ttf": "c04d1551740d27ebcf504e8c7e12ed75",
 "assets/assets/dalmiacement.png": "d3b01d90288b61be3b259f983b7f372e",
+"assets/assets/linkdin.png": "944e37ce5c746716ae280f2d9eaacb94",
 "assets/assets/logo_light.png": "803ba35adef2c2a6c03867f0a2628b24",
 "assets/assets/doctorsvoice.png": "f1f2d87cf2f793367a0c817c6c722183",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
@@ -25,7 +28,7 @@ const RESOURCES = {
 "index.html": "6f6fc3788747a990609212b298285c1c",
 "/": "6f6fc3788747a990609212b298285c1c",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "3ec1d6b09c9d0103338e9a1f1ccb11c0"
+"main.dart.js": "85ad9439ff05295fecc7549e6cc0385d"
 };
 
 // The application shell files that are downloaded before a service worker can
