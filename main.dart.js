@@ -45893,7 +45893,7 @@ b=A.ac(a9,a9,C.k,a9,a9,a9,a9,a9,a9,a9,a9,36,a9,a9,a9,a9,!0,a9,a9,a9,a9,a9,a9)
 a=A.ac(a9,a9,a8.d?C.j:C.k,a9,a9,a9,a9,a9,b0,a9,a9,30,a9,C.l,a9,a9,!0,a9,a9,a9,a9,a9,a9)
 a0=A.ac(a9,a9,a8.d?C.j:C.k,a9,a9,a9,a9,a9,b0,a9,a9,30,a9,C.l,a9,a9,!0,a9,a9,a9,a9,a9,a9)
 a1=A.ac(a9,a9,a8.d?C.j:C.k,a9,a9,a9,a9,a9,b0,a9,a9,30,a9,C.l,a9,a9,!0,a9,a9,a9,a9,a9,a9)
-d=T.eT(C.b2,H.b([new T.a9(new V.Q(0,0,0,0),d,a9),T.dU(H.b([new T.a9(new V.Q(48,128,16,0),T.ma(a9,a9,C.bi,!0,a9,new Q.aK(a9,H.b([new Q.aK("\nAndroid developer intern at Bliss Marketing.",a9,a9,a),new Q.aK("\nAndroid developer intern at Startoon Labs.",a9,a9,a0),new Q.aK("CTO of Incorebmedia.",a9,a9,a1),new Q.aK("\nFlutter developer intern at SRR Private Limited.",a9,a9,A.ac(a9,a9,a8.d?C.j:C.k,a9,a9,a9,a9,a9,b0,a9,a9,30,a9,C.l,a9,a9,!0,a9,a9,a9,a9,a9,a9))],g),a9,b),C.ad,a9,a9,1,C.aF),a9)],m),C.am)],m),C.aM)
+d=T.eT(C.b2,H.b([new T.a9(new V.Q(0,0,0,0),d,a9),T.dU(H.b([new T.a9(new V.Q(48,128,16,0),T.ma(a9,a9,C.bi,!0,a9,new Q.aK(a9,H.b([new Q.aK("\nAndroid developer intern at Bliss Marketing.",a9,a9,a),new Q.aK("\nAndroid developer intern at Startoon Labs.",a9,a9,a0),new Q.aK("\nCTO of Incorebmedia.",a9,a9,a1),new Q.aK("\nFlutter developer intern at SRR Private Limited.",a9,a9,A.ac(a9,a9,a8.d?C.j:C.k,a9,a9,a9,a9,a9,b0,a9,a9,30,a9,C.l,a9,a9,!0,a9,a9,a9,a9,a9,a9))],g),a9,b),C.ad,a9,a9,1,C.aF),a9)],m),C.am)],m),C.aM)
 b=M.bq(a9,a9,a9,a9,a9,75,a9,a9,a9)
 if(a8.d){a=C.o.h(0,300).a
 a=P.Y(51,(16711680&a)>>>16,(65280&a)>>>8,(255&a)>>>0)}else{a=C.o.h(0,900)
