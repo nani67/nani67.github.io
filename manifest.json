@@ -1,6 +1,6 @@
 {
-    "name": "website",
-    "short_name": "website",
+    "name": "nandroid_thingy",
+    "short_name": "nandroid_thingy",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
