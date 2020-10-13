@@ -6,18 +6,22 @@ const RESOURCES = {
   "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/AssetManifest.json": "b3653abecff894d833ccc00779c000fc",
+"assets/AssetManifest.json": "1694ddf97b985a6cdbf4c59553926be7",
 "assets/NOTICES": "1aa68e86f2063423a2cf4a8cdfa1bf76",
+"assets/assets/logolight.png": "5bab5e538de11f9bf8f1ec775121fd1b",
 "assets/assets/github.png": "d43185c7fb244b334db5fe846e81a770",
 "assets/assets/twitter.png": "28a63dbeebbcd976f2a7af19b791f84d",
+"assets/assets/blueflags.png": "3a25e92120f0c323f405a8f7c73543ce",
+"assets/assets/dalmiacement.png": "d3b01d90288b61be3b259f983b7f372e",
 "assets/assets/linkdin.png": "944e37ce5c746716ae280f2d9eaacb94",
-"assets/assets/logo_light.png": "5bab5e538de11f9bf8f1ec775121fd1b",
+"assets/assets/bmicalc.png": "809c2db3b01fc7c1e03e934ea048f261",
+"assets/assets/doctorsvoice.png": "f1f2d87cf2f793367a0c817c6c722183",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "manifest.json": "db3aee6bd6f916a7982f858a3fefc780",
 "index.html": "1a7b9fa60f563d2ad5aebffea6edb77b",
 "/": "1a7b9fa60f563d2ad5aebffea6edb77b",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "05a9e45031caa57c94f791078a54db63"
+"main.dart.js": "2590296fb8fa6257d753a9e3f74dfa0c"
 };
 
 // The application shell files that are downloaded before a service worker can

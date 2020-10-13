@@ -30,11 +30,12 @@ class BioDataState extends State<BioDataStateful> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
         elevation: 0.0,
         toolbarHeight: 72.0,
-        leading: IconButton(
-          icon: Icon(Icons.home),
+        centerTitle: true,
+        title: IconButton(
+          icon: Icon(Icons.home, color: Colors.black,),
         onPressed: () {
 Navigator.pop(globalContext);
         },),
@@ -42,7 +43,7 @@ Navigator.pop(globalContext);
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        color: Colors.blue,
+        color: Colors.white,
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -55,7 +56,7 @@ Navigator.pop(globalContext);
                   style: GoogleFonts.manrope(
                     fontSize: 48.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.amber,
+                    color: Colors.blue.shade700,
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -67,7 +68,7 @@ Navigator.pop(globalContext);
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
+                      color: Colors.black),
                   textAlign: TextAlign.center,
                 ),
               ),
@@ -80,9 +81,9 @@ Navigator.pop(globalContext);
                   child: Text(
                     "Penumala Nani",
                     style: GoogleFonts.manrope(
-                        fontSize: 30.0,
+                        fontSize: 26.0,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -97,9 +98,9 @@ Navigator.pop(globalContext);
                   child: Text(
                     "18 December 1998",
                     style: GoogleFonts.manrope(
-                        fontSize: 30.0,
+                        fontSize: 26.0,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -114,9 +115,9 @@ Navigator.pop(globalContext);
                   child: Text(
                     "pnani18dec@gmail.com",
                     style: GoogleFonts.manrope(
-                        fontSize: 30.0,
+                        fontSize: 26.0,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -130,9 +131,9 @@ Navigator.pop(globalContext);
                   child: Text(
                     "Instagram @ pnani18dec",
                     style: GoogleFonts.manrope(
-                        fontSize: 30.0,
+                        fontSize: 26.0,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -147,9 +148,9 @@ Navigator.pop(globalContext);
                   child: Text(
                     "https://linkedin.com/in/penumalanani",
                     style: GoogleFonts.manrope(
-                        fontSize: 30.0,
+                        fontSize: 26.0,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -164,9 +165,9 @@ Navigator.pop(globalContext);
                   child: Text(
                     "https://github.com/nani67",
                     style: GoogleFonts.manrope(
-                        fontSize: 30.0,
+                        fontSize: 26.0,
                         fontWeight: FontWeight.bold,
-                        color: Colors.white),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -175,7 +176,7 @@ Navigator.pop(globalContext);
 
 
               Image.asset(
-                  "logo_light.png",
+                  "logolight.png",
                   width: MediaQuery.of(context).size.width > 1024
                       ? MediaQuery.of(context).size.width / 7
                       : MediaQuery.of(context).size.height / 4,

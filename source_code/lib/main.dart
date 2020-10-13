@@ -356,6 +356,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     icon: Icon(Icons.download_rounded, color: Colors.white),
                     onPressed: () {
 
+    js.context.callMethod("open", ["https://drive.google.com/file/d/1OVpDpeJ-hmo0O3BEm002VrkQFOhoBA-R/view?usp=sharing"]);
 
                     },
                   ) : FlatButton.icon(
@@ -365,6 +366,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Text("Download Resume", style: GoogleFonts.manrope(fontSize: 20.0, fontWeight: FontWeight.bold, color: Colors.white),),
                     ),
                     onPressed: () {
+
+    js.context.callMethod("open", ["https://drive.google.com/file/d/1OVpDpeJ-hmo0O3BEm002VrkQFOhoBA-R/view?usp=sharing"]);
 
                     },
                   ),
@@ -385,7 +388,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Center(
                 child: Image.asset(
-                  "logo_light.png",
+                  "logolight.png",
                   width: MediaQuery.of(context).size.width > 1024
                       ? MediaQuery.of(context).size.width / 7
                       : MediaQuery.of(context).size.height / 4,

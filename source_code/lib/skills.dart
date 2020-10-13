@@ -29,11 +29,12 @@ class SkillsState extends State<SkillsStateful> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.white,
         elevation: 0.0,
         toolbarHeight: 72.0,
-        leading: IconButton(
-          icon: Icon(Icons.home),
+        centerTitle: true,
+        title: IconButton(
+          icon: Icon(Icons.home, color: Colors.black,),
           onPressed: () {
             Navigator.pop(globalContext);
           },
@@ -42,141 +43,178 @@ class SkillsState extends State<SkillsStateful> {
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        color: Colors.green,
+        color: Colors.white,
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+
+
+
+
               Padding(
                 padding: EdgeInsets.all(16.0),
+                child: Text(
+                  "Skills I have",
+                  style: GoogleFonts.manrope(
+                      fontSize: 36.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.pink.shade700),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+
+
+
+
+
+
+              Padding(
+                padding: EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 8.0),
                 child: Text(
                   "Web development",
                   style: GoogleFonts.manrope(
-                      fontSize: 30.0,
+                      fontSize: 27.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.start,
+                      color: Colors.black),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Advanced: Flutter (this webapp is made using this), HTML, CSS.",
+                  "Flutter (this webapp is made using this), HTML, CSS.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.green),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Intermediate: JavaScript, Bootstrap.",
+                  "JavaScript, Bootstrap.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.orange),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Beginner : Angular, React Native, Django, Flask, Ionic.",
+                  "Angular, React Native, Django, Flask, Ionic.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.blue),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 8.0),
                 child: Text(
                   "Programming Languages",
                   style: GoogleFonts.manrope(
-                      fontSize: 30.0,
+                      fontSize: 27.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.start,
+                      color: Colors.black),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Advanced: Dart.",
+                  "Dart.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.green),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Intermediate: Java, Python, C++.",
+                  "Java, Python, C++.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.orange),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 8.0),
                 child: Text(
-                  "Beginner : C, TypeScript.",
+                  "C, C#.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.blue),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 8.0),
                 child: Text(
                   "Cloud Platforms",
                   style: GoogleFonts.manrope(
-                      fontSize: 30.0,
+                      fontSize: 27.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.start,
+                      color: Colors.black),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Advanced: Google Cloud Platform.",
+                  "Google Cloud Platform.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.green),
+                  textAlign: TextAlign.center,
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Intermediate: Amazon Web Services, IBM Cloud Services.",
+                  "Amazon Web Services, IBM Cloud Services.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.orange),
+                  textAlign: TextAlign.center
                 ),
               ),
               Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(8.0),
                 child: Text(
-                  "Beginner : Microsoft Azure.",
+                  "Microsoft Azure.",
                   style: GoogleFonts.manrope(
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                  textAlign: TextAlign.end,
+                      color: Colors.blue),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+
+
+
+              Padding(
+                padding: EdgeInsets.fromLTRB(8.0, 36.0, 8.0, 16.0),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+
+                    Text("Beginner", style: GoogleFonts.manrope(fontSize: 20.0, color: Colors.blue, fontWeight: FontWeight.bold),),
+                    Text("Intermediate", style: GoogleFonts.manrope(fontSize: 20.0, color: Colors.orange, fontWeight: FontWeight.bold),),
+                    Text("Advanced", style: GoogleFonts.manrope(fontSize: 20.0, color: Colors.green, fontWeight: FontWeight.bold),),
+                  ],
                 ),
               ),
             ],
