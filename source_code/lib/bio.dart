@@ -174,9 +174,8 @@ Navigator.pop(globalContext);
               ),
 
 
-
-              Image.asset(
-                  "logolight.png",
+Image.network(
+                  "https://nani67.github.io/assets/assets/logolight.png",
                   width: MediaQuery.of(context).size.width > 1024
                       ? MediaQuery.of(context).size.width / 7
                       : MediaQuery.of(context).size.height / 4,

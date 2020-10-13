@@ -387,8 +387,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               Center(
-                child: Image.asset(
-                  "logolight.png",
+                child: Image.network(
+                  "https://nani67.github.io/assets/assets/logolight.png",
                   width: MediaQuery.of(context).size.width > 1024
                       ? MediaQuery.of(context).size.width / 7
                       : MediaQuery.of(context).size.height / 4,
